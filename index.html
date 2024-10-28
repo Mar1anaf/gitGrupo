@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -20,44 +22,116 @@
     <div class="title">
         <h1>Nois é nois, não é ninguém</h1>
     </div>
+
+    <div class="music-info">
+        <h3>Curiosidade sobre Música</h3>
+        <p>A música mais curta já gravada é "You Suffer" da banda de grindcore Napalm Death, com apenas 1,316 segundos
+            de duração. Lançada em 1987, ela ainda é conhecida por seu recorde no Guinness como a menor música do mundo!
+        </p>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Boa Boa. Todos os direitos reservados.</p>
+            <nav class="footer-nav">
+                <a href="#about">Sobre</a> |
+                <a href="#services">Serviços</a> |
+                <a href="#contact">Contato</a>
+            </nav>
+        </div>
+    </footer>
 </body>
+
 </html>
 
 <style>
     /* Estilos gerais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
 
-/* Estilo do header */
-header {
-    width: 100%;
-    background-color: #99c1eb;
-    padding: 10px 0;
-    text-align: center;
-}
+    /* Estilo do corpo */
+    body {
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f4f9;
+    }
 
-/* Estilo da navegação */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+    /* Estilo do header */
+    header {
+        width: 100%;
+        background-color: #99c1eb;
+        padding: 10px 0;
+        text-align: center;
+    }
 
-/* Estilo dos itens do menu */
-nav ul li {
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 1.2em;
-    transition: color 0.3s ease;
-}
+    /* Estilo da navegação */
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
 
-/* Efeito de hover */
-nav ul li:hover {
-    color: #1e90ff;
-}
+    /* Estilo dos itens do menu */
+    nav ul li {
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: color 0.3s ease;
+    }
+
+    /* Efeito de hover */
+    nav ul li:hover {
+        color: #1e90ff;
+    }
+
+    .music-info {
+        background-color: #f0f0f0;
+        padding: 15px;
+        border-radius: 8px;
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .music-info h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .music-info p {
+        color: #666;
+    }
+
+    .title {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footer {
+        background-color: #1e90ff;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-nav {
+        margin-top: 10px;
+    }
+
+    .footer-nav a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+    }
 </style>
