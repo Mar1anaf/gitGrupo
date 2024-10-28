@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -16,44 +18,132 @@
             </ul>
         </nav>
     </header>
+
+    <section id="musica">
+        <h2>Música Favorita</h2>
+        <p>A música tem o poder de nos conectar, inspirar e emocionar. Aqui estão algumas das nossas músicas favoritas,
+            cada uma com sua própria história e impacto:</p>
+        <ul>
+            <li>
+                <div class="song-title"><strong>Bohemian Rhapsody</strong> - Queen</div>
+                <img src="https://www.google.com/imgres?q=queen&imgurl=https%3A%2F%2Fakamai.sscdn.co%2Ftb%2Fletras-blog%2Fwp-content%2Fuploads%2F2020%2F04%2Fa11f11e-Queen-1024x810.jpg&imgrefurl=https%3A%2F%2Fwww.letras.mus.br%2Fblog%2Fcuriosidades-banda-queen%2F&docid=YUJozbD1Tf71hM&tbnid=853dy6KH_w9y3M&vet=12ahUKEwjM3teWqLGJAxVcjZUCHXdZPAkQM3oECGQQAA..i&w=1024&h=810&hcb=2&ved=2ahUKEwjM3teWqLGJAxVcjZUCHXdZPAkQM3oECGQQAA"
+                    alt="Queen">
+            </li>
+            <li>
+                <div class="song-title"><strong>Imagine</strong> - John Lennon</div>
+                <img src="https://www.google.com/imgres?q=john%20lennon&imgurl=https%3A%2F%2Fradiopeaobrasil.com.br%2Fwp-content%2Fuploads%2F2020%2F10%2Fjohnlennon1.jpg&imgrefurl=https%3A%2F%2Fradiopeaobrasil.com.br%2Fas-musicas-de-john-lennon-mostram-que-o-sonho-nunca-acaba%2F&docid=19PCKFQAXqgeUM&tbnid=ATZs-FzThpa2iM&vet=12ahUKEwiSyrelqLGJAxVcppUCHTRQAhkQM3oFCIMBEAA..i&w=617&h=409&hcb=2&ved=2ahUKEwiSyrelqLGJAxVcppUCHTRQAhkQM3oFCIMBEAA"
+                    alt="John Lennon">
+            </li>
+            <li>
+                <div class="song-title"><strong>Shape of You</strong> - Ed Sheeran</div>
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.apple.com%2Fbr%2Fnewsroom%2F2023%2F05%2Fapple-music-live-returns-for-a-brand-new-season-with-ed-sheeran%2F&psig=AOvVaw3EOPt21c84pSRcFBjxllyH&ust=1730213157709000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiLprqosYkDFQAAAAAdAAAAABAJ"
+                    alt="Ed Sheeran">
+            </li>
+            <li>
+                <div class="song-title"><strong>Garota de Ipanema</strong> - Tom Jobim</div>
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.letras.mus.br%2Fblog%2Fas-melhores-musicas-do-tom-jobim%2F&psig=AOvVaw3kT2KuQduf9Fk3gKBVQh5i&ust=1730213188200000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICVi8iosYkDFQAAAAAdAAAAABAE"
+                    alt="Tom Jobim">
+            </li>
+        </ul>
+    </section>
 </body>
+
 </html>
 
 <style>
     /* Estilos gerais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
 
-/* Estilo do header */
-header {
-    width: 100%;
-    background-color: #99c1eb;
-    padding: 10px 0;
-    text-align: center;
-}
+    /* Estilo do header */
+    header {
+        width: 100%;
+        background-color: #99c1eb;
+        padding: 10px 0;
+        text-align: center;
+    }
 
-/* Estilo da navegação */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+    /* Estilo da navegação */
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
 
-/* Estilo dos itens do menu */
-nav ul li {
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 1.2em;
-    transition: color 0.3s ease;
-}
+    /* Estilo dos itens do menu */
+    nav ul li {
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: color 0.3s ease;
+    }
 
-/* Efeito de hover */
-nav ul li:hover {
-    color: #1e90ff;
-}
+    /* Efeito de hover */
+    nav ul li:hover {
+        color: #1e90ff;
+    }
+
+    /* Estilo da seção de música */
+    #musica {
+        padding: 40px;
+        background-color: #f0f8ff;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        max-width: 800px;
+    }
+
+    #musica h2 {
+        margin-bottom: 20px;
+        color: #333;
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+    #musica p {
+        margin-bottom: 30px;
+        font-size: 1.2em;
+        color: #666;
+        line-height: 1.5;
+    }
+
+    #musica ul {
+        list-style: none;
+        padding: 0;
+        color: #333;
+        text-align: left;
+        margin: auto;
+    }
+
+    #musica ul li {
+        margin: 20px 0;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    #musica img {
+        margin-left: 10px;
+        vertical-align: middle;
+        border-radius: 5px;
+        max-width: 100px;
+        transition: transform 0.3s ease;
+    }
+
+    #musica img:hover {
+        transform: scale(1.1);
+    }
+
+    .song-title {
+        flex-grow: 1;
+        text-align: left;
+    }
 </style>
