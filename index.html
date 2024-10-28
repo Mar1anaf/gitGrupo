@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -16,44 +18,78 @@
             </ul>
         </nav>
     </header>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+            <nav class="footer-nav">
+                <a href="#about">Sobre</a> |
+                <a href="#services">Serviços</a> |
+                <a href="#contact">Contato</a>
+            </nav>
+        </div>
+    </footer>
 </body>
+
 </html>
 
 <style>
     /* Estilos gerais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
 
-/* Estilo do header */
-header {
-    width: 100%;
-    background-color: #99c1eb;
-    padding: 10px 0;
-    text-align: center;
-}
+    /* Estilo do header */
+    header {
+        width: 100%;
+        background-color: #99c1eb;
+        padding: 10px 0;
+        text-align: center;
+    }
 
-/* Estilo da navegação */
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+    /* Estilo da navegação */
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
 
-/* Estilo dos itens do menu */
-nav ul li {
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 1.2em;
-    transition: color 0.3s ease;
-}
+    /* Estilo dos itens do menu */
+    nav ul li {
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: color 0.3s ease;
+    }
 
-/* Efeito de hover */
-nav ul li:hover {
-    color: #1e90ff;
-}
+    /* Efeito de hover */
+    nav ul li:hover {
+        color: #1e90ff;
+    }
+
+    .footer {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .footer-nav {
+        margin-top: 10px;
+    }
+    
+    .footer-nav a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+    }
 </style>
