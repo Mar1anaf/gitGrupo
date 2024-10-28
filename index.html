@@ -22,6 +22,33 @@
     <div class="title">
         <h1>Nois é nois, não é ninguém</h1>
     </div>
+    <section id="musica">
+        <h2>Música Favorita</h2>
+        <p>A música tem o poder de nos conectar, inspirar e emocionar. Aqui estão algumas das nossas músicas favoritas,
+            cada uma com sua própria história e impacto:</p>
+        <ul>
+            <li>
+                <div class="song-title"><strong>Bohemian Rhapsody</strong> - Queen</div>
+                <img src="https://culturadoria.com.br/wp-content/uploads/2021/05/queen-foto-Queen-Productions-Ltd-1024x567.jpg"
+                    alt="Queen">
+            </li>
+            <li>
+                <div class="song-title"><strong>Imagine</strong> - John Lennon</div>
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.usatoday.com%2Fpicture-gallery%2Flife%2Fmusic%2F2015%2F12%2F08%2Fjohn-lennon-35-classic-photos%2F76976718%2F&psig=AOvVaw1DFVosAQrU4Ab6eYO_o03x&ust=1730214401773000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLi9qpGtsYkDFQAAAAAdAAAAABAJ"
+                    alt="John Lennon">
+            </li>
+            <li>
+                <div class="song-title"><strong>Shape of You</strong> - Ed Sheeran</div>
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fed-sheeran&psig=AOvVaw2RJmtAAgLXAD5USWy--Yp9&ust=1730214453043000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiG6qGtsYkDFQAAAAAdAAAAABAE"
+                    alt="Ed Sheeran">
+            </li>
+            <li>
+                <div class="song-title"><strong>Garota de Ipanema</strong> - Tom Jobim</div>
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmusicabrasilis.com%2Fcomposers%2Ftom-jobim&psig=AOvVaw3QEX920PN6C42LYIHD0UnH&ust=1730214473814000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCro6utsYkDFQAAAAAdAAAAABAK"
+                    alt="Tom Jobim">
+            </li>
+        </ul>
+    </section>
 
     <div class="music-info">
         <h3>Curiosidade sobre Música</h3>
@@ -134,4 +161,63 @@
         margin: 0 10px;
         text-decoration: none;
     }
+
+        /* Estilo da seção de música */
+        #musica {
+            padding: 40px;
+            background-color: #f0f8ff;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        #musica h2 {
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 2em;
+            font-weight: 700;
+        }
+
+        #musica p {
+            margin-bottom: 30px;
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        #musica ul {
+            list-style: none;
+            padding: 0;
+            color: #333;
+            text-align: left;
+            margin: auto;
+        }
+
+        #musica ul li {
+            margin: 20px 0;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        #musica img {
+            margin-left: 10px;
+            vertical-align: middle;
+            border-radius: 5px;
+            max-width: 100px;
+            transition: transform 0.3s ease;
+        }
+
+        #musica img:hover {
+            transform: scale(1.1);
+        }
+
+        .song-title {
+            flex-grow: 1;
+            text-align: left;
+        }
 </style>
